@@ -1,2 +1,2 @@
 # WeatherApp
-# Displays current weather using the OpenWeatherMap API
+# Displays user's current location's weather using OpenWeatherMap API
