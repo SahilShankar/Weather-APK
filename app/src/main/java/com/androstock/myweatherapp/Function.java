@@ -2,8 +2,6 @@ package com.androstock.myweatherapp;
 
 import android.os.AsyncTask;
 import android.util.Log;
-import android.widget.RelativeLayout;
-
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -26,7 +24,6 @@ public class Function {
     private static final String OPEN_WEATHER_MAP_API = "1346e1c34d5e49ac4826d2dd717e7d1f";
 
     public static String setWeatherIcon(int actualId, long sunrise, long sunset){
-        RelativeLayout relativeLayout;
         int id = actualId / 100;
         String icon = "";
         if(actualId == 800){
